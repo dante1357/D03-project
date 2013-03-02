@@ -6,5 +6,4 @@ final cv project
 THANKS BY
 =========
 
-Ali Mihandoost
-Ali gh
+Ali Mihandoost & Ali GH
