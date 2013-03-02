@@ -3,7 +3,7 @@ D03-project
 
 My final cv project for D03 class
 =================================
-Base of design [here](http://themes.pixelwars.org/impressivcard/).
+Base of design is [themes.pixelwars.org/impressivcard](http://themes.pixelwars.org/impressivcard/).
 
 ##TEAM
 [Mansoor Masoudifard `dante1357`](https://github.com/dante1357) Project Manager
