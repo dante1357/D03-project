@@ -8,8 +8,7 @@ Base of design is [themes.pixelwars.org/impressivcard](http://themes.pixelwars.o
 ##TEAM
 [Mansoor Masoudifard `dante1357`](https://github.com/dante1357) Project Manager
 
-THANKS BY
-=========
+##THANKS BY
 
 * [Ali Mihandoost `AliMD`](https://github.com/AliMD) Technical Manager / Developer
 * [Ali aGHasizadeh `AliGH`](https://github.com/AliGH) Developer / Programmer
