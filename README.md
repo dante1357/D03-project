@@ -1,7 +1,7 @@
-D03-project
+D3-project
 ===========
 
-My final cv project for D03 class
+My final cv project for D3 class
 =================================
 Base of design is [themes.pixelwars.org/impressivcard](http://themes.pixelwars.org/impressivcard/).
 
