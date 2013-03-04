@@ -769,6 +769,59 @@
     height: 13px;
     margin-bottom: 0;
   }
+  body {
+    background-image: url("images/backsite2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  div.container {
+    min-height: 580px;
+    border: 1px solid #f00;
+    width: 1170px;
+    margin: 0 auto;
+  }
+  div.container > * {
+    border: 1px dashed #00f;
+  }
+  section.currentPage {
+    width: 145px;
+    height: 53px;
+    margin-top: 110px;
+    line-height: 43px;
+    text-align: center;
+  }
+  div.content {
+    margin-top: 10px;
+  }
+  section.map {
+    float: left;
+    width: 675px;
+    height: 405px;
+    border: 1px dotted #000;
+  }
+  section.map > p {
+    margin-top: 0;
+    border: 1px solid #390;
+  }
+  section.map > div {
+    margin-top: 10px;
+    height: 360px;
+    border: 1px solid #390;
+  }
+  section.contactMe {
+    margin-left: 700px;
+    height: 405px;
+    border: 1px dotted #000;
+  }
+  section.contactMe > p {
+    border: 1px solid #390;
+    margin-top: 0;
+  }
+  section.contactMe > div {
+    margin-top: 10px;
+    height: 360px;
+    border: 1px solid #390;
+  }
 }
 @media print {
   * {
