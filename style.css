@@ -914,6 +914,49 @@
     text-align: center;
     line-height: 40px;
   }
+  body {
+    background-image: url("images/backsite4.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  div.containerP {
+    margin: 0 auto;
+    width: 1170px;
+    min-height: 1050px;
+    border: 1px solid #000;
+  }
+  div.containerP > * {
+    border: 1px solid #00f;
+  }
+  div.floor article {
+    border: 1px solid #390;
+  }
+  section.currentPage {
+    width: 162px;
+    height: 50px;
+    margin-top: 180px;
+  }
+  section.category {
+    width: 220px;
+    height: 20px;
+    margin-left: 945px;
+    margin-top: 20px;
+  }
+  div.gallery {
+    min-height: 750px;
+    margin-top: 20px;
+  }
+  div.floor article {
+    width: 207px;
+    height: 207px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 38px;
+  }
+  div.floor > article:last-child {
+    margin-right: 0;
+    width: 210px;
+  }
 }
 @media print {
   * {
