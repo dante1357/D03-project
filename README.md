@@ -11,7 +11,8 @@ Base of design is [themes.pixelwars.org/impressivcard](http://themes.pixelwars.o
 ##THANKS BY
 
 * [Ali Mihandoost `AliMD`](https://github.com/AliMD) Technical Manager / Developer
-* [Ali aGHasizadeh `AliGH`](https://github.com/AliGH) Developer / Programmer
+* [Ali aGHasizadeh `AliGH`](https://github.com/AliGH) Developer / Programmer / My adviser
+* [Mohammad Reza Kavian `mkdesign`](https://github.com/mkdesign) My adviser / Technical Manager
 
 ## TECHNOLOGY
 * [HTML5](http://ali.md/wiki/html5)
