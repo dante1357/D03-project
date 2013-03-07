@@ -48,13 +48,18 @@ div.page2{
 	        transform: rotate(90deg);
 }
 div.page3{
-	left: -1850px;
-	top: 0;
+	left: -3705px;
+	top: -250px;
+	-webkit-transform: scale(2,2);
+	   -moz-transform: scale(2,2);
+	    -ms-transform: scale(2,2);
+	     -o-transform: scale(2,2);
+	        transform: scale(2,2);
 }
 div.page4{
-	left: 885px;
-	top: -3060px;
-	-webkit-transform: rotate(90deg);
+	left: -2015px;
+	top: 8780px;
+	-webkit-transform: rotate(270deg) scale(4,4);
 	   -moz-transform: rotate(90deg);
 	    -ms-transform: rotate(90deg);
 	     -o-transform: rotate(90deg);
@@ -97,8 +102,13 @@ div.portfolio{
 	color: #fff;
 	text-align: center;
 	font-size: 62px;
-	top: 0;
-	right: -3020px;
+	top: -50px;
+	right: -2730px;
+	-webkit-transform: scale(0.5,0.5);
+	   -moz-transform: scale(0.5,0.5);
+	    -ms-transform: scale(0.5,0.5);
+	     -o-transform: scale(0.5,0.5);
+	        transform: scale(0.5,0.5);
 }
 div.contactme{
 	min-height: 400px;
@@ -108,11 +118,11 @@ div.contactme{
 	color: #fff;
 	text-align: center;
 	font-size: 62px;
-	-webkit-transform: rotate(270deg);
+	-webkit-transform: rotate(90deg) scale(0.25,0.25);
 	   -moz-transform: rotate(270deg);
 	    -ms-transform: rotate(270deg);
 	     -o-transform: rotate(270deg);
 	        transform: rotate(270deg);
-	top: 100px;
-	right: -3840px;
+	top: 450px;
+	right: -2730px;
 }
