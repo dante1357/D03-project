@@ -25,7 +25,7 @@ nav li{
 	width: 90px;
 }
 div.OH{
-	min-height: 400px;
+	min-height: 550px;
 	border:1px solid red;
 	position: relative;
 	overflow: hidden;
@@ -48,27 +48,17 @@ div.page2{
 	        transform: rotate(90deg);
 }
 div.page3{
-	left: -5315px;
-	top: -936px;
-	-webkit-transform: scale(2.8571,2.8571);
-	   -moz-transform: scale(2.8571,2.8571);
-	    -ms-transform: scale(2.8571,2.8571);
-	     -o-transform: scale(2.8571,2.8571);
-	        transform: scale(2.8571,2.8571);
+	left: -1850px;
+	top: 0;
 }
 div.page4{
-	left: -15515px;
-	top: -3134px;
-	-webkit-transform: rotate(270deg);
-	   -moz-transform: rotate(270deg);
-	    -ms-transform: rotate(270deg);
-	     -o-transform: rotate(270deg);
-	        transform: rotate(270deg);
-	    -webkit-transform: scale(6.6667,6.6667);
-	       -moz-transform: scale(6.6667,6.6667);
-	        -ms-transform: scale(6.6667,6.6667);
-	         -o-transform: scale(6.6667,6.6667);
-	            transform: scale(6.6667,6.6667);
+	left: 885px;
+	top: -3060px;
+	-webkit-transform: rotate(90deg);
+	   -moz-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	     -o-transform: rotate(90deg);
+	        transform: rotate(90deg);
 }
 div.pages{
 	position: absolute;
@@ -107,13 +97,8 @@ div.portfolio{
 	color: #fff;
 	text-align: center;
 	font-size: 62px;
-	-webkit-transform: scale(0.35,0.35);
-	   -moz-transform: scale(0.35,0.35);
-	    -ms-transform: scale(0.35,0.35);
-	     -o-transform: scale(0.35,0.35);
-	        transform: scale(0.35,0.35);
-	top: 100px;
-	right: -2650px;
+	top: 0;
+	right: -3020px;
 }
 div.contactme{
 	min-height: 400px;
@@ -123,16 +108,11 @@ div.contactme{
 	color: #fff;
 	text-align: center;
 	font-size: 62px;
-	-webkit-transform: rotate(90deg);
-	   -moz-transform: rotate(90deg);
-	    -ms-transform: rotate(90deg);
-	     -o-transform: rotate(90deg);
-	        transform: rotate(90deg);
-	-webkit-transform: scale(0.15,0.15);
-	   -moz-transform: scale(0.15,0.15);
-	    -ms-transform: scale(0.15,0.15);
-	     -o-transform: scale(0.15,0.15);
-	        transform: scale(0.15,0.15);
-	top: 300px;
-	right: -3000px;
+	-webkit-transform: rotate(270deg);
+	   -moz-transform: rotate(270deg);
+	    -ms-transform: rotate(270deg);
+	     -o-transform: rotate(270deg);
+	        transform: rotate(270deg);
+	top: 100px;
+	right: -3840px;
 }
