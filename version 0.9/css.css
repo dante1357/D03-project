@@ -5,6 +5,32 @@
 html, body {
   height: 100%;
 }
+@font-face {
+	font-family:headers;
+	src:url('fonts/julieta-ulanovsky_montserrat/Montserrat-Regular.ttf');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: headers !important;
+}
+@font-face {
+	font-family:others;
+	src:url('fonts/luke-owens_oregon-ldo/Oregon LDO DemiBold.ttf');
+}
+p,
+div,
+a,
+section,
+article,
+span,
+input,
+textarea{
+	font-family: others !important;
+}
 .badboy{
 	clear: both;
 	overflow: hidden;
@@ -25,9 +51,9 @@ body{
 }
 div.alpha{
 	width: 1170px;
-	position: absolute;
-	top: 10px;
-	bottom: 10px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -123,6 +149,8 @@ div#ah{
 	   -moz-perspective:3000;
 	    -ms-perspective:3000;
 	     -o-perspective:3000;
+	-webkit-box-shadow:  0px 0px 10px #333;
+            box-shadow:  0px 0px 10px #333;
 }
 div.pages{
 	height: 700px;
@@ -538,7 +566,6 @@ div.jobs h5{
 }
 /* =========================== portfolio =========================== */
 div.portfolio{
-	background-color: darkred;
 	-webkit-transform-origin: right;
 	   -moz-transform-origin: right;
 	    -ms-transform-origin: right;
@@ -673,7 +700,7 @@ div.main-contact h3{
 }
 div.map > div{
 	margin-top: 20px;
-	height: 360px;
+	height: 370px;
 	border-left:5px solid #0997E3;
 }
 div.form ul{
@@ -686,7 +713,7 @@ div.form li{
 }
 .title {
 display: inline-block;
-padding: 2px 8px;
+padding: 1px 11px;
 position: relative;
 font-size: 90%;
 background-color: #0997E3;
@@ -709,16 +736,19 @@ input{
 }
 input#name{
 	margin-top: 21px;
-	margin-left: -55px;
+	margin-left: -59px;
 }
 input#email{
 	margin-top: 21px;
 	margin-left: -63px;
 }
-input#massage{
+textarea#massage{
 	margin-top: 21px;
-	margin-left: -80px;
+	margin-left: -82px;
 	height: 100px;
+	width: 304px;
+	position: absolute;
+	padding-top: 5px;
 }
 button{
 	width: 120px;
@@ -733,7 +763,7 @@ button{
 	    -ms-transition: all 500ms;
 	     -o-transition: all 500ms;
 	        transition: all 500ms;
-	margin-top: 45px;
+	margin-top: 55px;
 	cursor: pointer;
 }
 button:hover{

@@ -1,6 +1,39 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<script
+		src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC-hZ2PQzrbB8lELFPZ9VvxTHljGMCK1ac&sensor=false">
+	</script>
+
+	<script>
+		var myCenter=new google.maps.LatLng(36.318587,59.552148);
+
+		function initialize(){
+			var mapProp = {
+			  center:myCenter,
+			  zoom:16,
+			  mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+			var marker=new google.maps.Marker({
+			position:myCenter,
+		});
+
+		marker.setMap(map);
+
+		var infowindow = new google.maps.InfoWindow({
+		  content:"You can find me here!"
+		});
+
+		google.maps.event.addListener(marker, 'click', function() {
+	  	infowindow.open(map,marker);
+	  });
+}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css.css" type="text/css" />
@@ -226,9 +259,7 @@
 				<div class="contact-contact">
 					<div class="map">
 						<h3>My Real One not My Virtually :D</h3>
-						<div>
-							<iframe width="545" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=217520357799624143543.0004d771514a3ca8a4912&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;iwloc=0004d771516005c35f554&amp;ll=36.318659,59.552299&amp;spn=0,0&amp;output=embed"></iframe>
-						</div>
+						<div id="googleMap"></div>
 					</div>
 					<div class="form">
 						<h3>Drop me a line!</h3>
@@ -243,7 +274,7 @@
 							</li>
 							<li>
 								<lable class="title" for="massage">MASSAGE</lable>
-								<input type="text" name="massage" id="massage" placeholder="And your message to me...">
+								<textarea name="massage" id="massage" cols="30" rows="10" placeholder="What you want to tell me?"></textarea>
 							</li>
 							<li>
 								<button type="submit" class="btn-send">send</button>
